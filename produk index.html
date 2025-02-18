@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/produk.css" />
+    <title>PT. Kurnia Rizki Perkasa</title>
+   </head>
+   <body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">PT. Kurnia Rizki Perkasa</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="produk index.html">Collections</a>
+                <a href="promo index.html">Promo</a>
+                <a href="howtouse index.html">How To Use</a>
+                <a href="contact index.html">Contact Us</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="category-filter">
+        <button class="filter-btn" onclick="filterProducts('sunnah')">Pengharum Sunnah</button>
+        <button class="filter-btn" onclick="filterProducts('ruangan')">Pengharum Ruangan</button>
+        <button class="filter-btn" onclick="filterProducts('eliminator')">Air Freshener Eliminator</button>
+        <button class="filter-btn" onclick="filterProducts('exclusive')">Parfum Exclusive</button>
+    </div>
+    <main class="products-container">
+        <div class="product-card active" data-category="sunnah">
+            <img src="/image/kasturi 225ml.jpg" alt="KASTURI'QU" class="product-image">
+            <div class="product-info">
+                <h2 class="product-title">KASTURI'QU REFILL METIC</h2>
+                <div class="product-tags">
+                    <span class="tag">225ML</span>
+                    <span class="tag">Castoreum</span>
+                    <span class="tag">Aroma musk manis</span>
+                    <span class="tag">Biji Ambrette</span>
+                    <span class="tag">Civet</span>
+                </div>
+                <div class="price">Rp55.000</div>
+                <button class="more-detail-btn" onclick="openPopup(this)">More Detail</button>
+            </div>
+        </div>
+    
+    
+        <!-- KISWAH'QU -->
+        <div class="product-card active" data-category="sunnah">
+            <img src="/image/kiswah 225ml.jpg" alt="KISWAH'QU" class="product-image">
+            <div class="product-info">
+                <h2 class="product-title">KISWAH'QU REFILL METIC</h2>
+                <div class="product-tags">
+                    <span class="tag">225ML</span>
+                    <span class="tag">Musk</span>
+                    <span class="tag">Agarwood</span>
+                    <span class="tag">Amber</span>
+                    <span class="tag">Rose</span>
+                </div>
+                <div class="price">Rp55.000</div>
+                <button class="more-detail-btn" onclick="openPopup(this)">More Detail</button>
+                </div>
+            </div>
+            
+
+    
+        <!-- RAUDHAH'QU -->
+        <div class="product-card active" data-category="sunnah">
+            <img src="/image/raudhah 225ml.jpg" alt="RAUDHAH'QU" class="product-image">
+            <div class="product-info">
+                <h2 class="product-title">RAUDHAH'QU REFILL METIC</h2>
+                <div class="product-tags">
+                    <span class="tag">225ML</span>
+                    <span class="tag">Wangi Eksklusif</span>
+                    <span class="tag">Floral</span>
+                    <span class="tag">Woody</span>
+                    <span class="tag">Luxury Scent</span>
+                </div>
+                <div class="price">Rp55.000</div>
+                <button class="more-detail-btn" onclick="openPopup(this)">More Detail</button>
+                </div>
+        </div>
+
+           
+        <!-- KASTURI ROLL ON -->
+        <div class="product-card active" data-category="sunnah">
+            <img src="/image/kasturi rollon.jpg" alt="KASTURI ROLL ON" class="product-image">
+            <div class="product-info">
+                <h2 class="product-title">KASTURI ROLL ON</h2>
+                <div class="product-tags">
+                    <span class="tag">10ML</span>
+                    <span class="tag">Wangi manis khas</span>
+                    <span class="tag">Musk</span>
+                    <span class="tag">Biji Ambrette</span>
+                    <span class="tag">Civet</span>
+                </div>
+                <div class="price">Rp20.000</div>
+                <button class="more-detail-btn" onclick="openPopup(this)">More Detail</button>
+                </div>
+            </div>
+
+            <div class="product-card active" data-category="sunnah">
+                <img src="/image/raudhah rollon.jpg" alt="RAUDHAH ROLL ON" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">RAUDHAH ROLL ON</h2>
+                    <div class="product-tags">
+                        <span class="tag">10ML</span>
+                        <span class="tag">Wangi segar lembut</span>
+                        <span class="tag">Musk</span>
+                        <span class="tag">Agarwood</span>
+                        <span class="tag">Amber</span>
+                    </div>
+                    <div class="price">Rp20.000</div>
+                    <button class="more-detail-btn" onclick="openPopup(this)">More Detail</button>
+                </div>
+            </div>
+
+            <div class="product-card active" data-category="sunnah">
+                <img src="/image/kiswah rollon.jpg" alt="KISWAH ROLL ON" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">KISWAH ROLL ON</h2>
+                    <div class="product-tags">
+                        <span class="tag">10ML</span>
+                        <span class="tag">Wangi kayu elegan</span>
+                        <span class="tag">Musk</span>
+                        <span class="tag">Agarwood</span>
+                        <span class="tag">Amber</span>
+                    </div>
+                    <div class="price">Rp20.000</div>
+                    <button class="more-detail-btn" onclick="openPopup(this)">More Detail</button>
+                </div>
+            </div>
+    </main>
+    
+        <!--pafum ruangan -->
+        <main class="products-container">
+            <div class="product-card active" data-category="ruangan">
+                <img src="/image/kopi'qu.jpg" alt="KOPI'QU" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">KOPI'QU REFILL METIC</h2>
+                    <div class="product-tags">
+                        <span class="tag">225ML</span>
+                        <span class="tag">Aroma kopi</span>
+                        <span class="tag">Vanilla lembut</span>
+                        <span class="tag">Cinnamon hangat</span>
+                        <span class="tag">Cedarwood earthy</span>
+                        <span class="tag">Tonka Bean & cokelat creamy</span>
+                    </div>
+                    <div class="price">Rp55.000</div>
+                    <button class="more-detail-btn" onclick="openPopup(this)">More Detail</button>
+                </div>    
+                </div>
+        
+            <div class="product-card active" data-category="ruangan">
+                <img src="/image/melati'qu.jpg" alt="MELATI'QU" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">MELATI'QU REFILL METIC</h2>
+                    <div class="product-tags">
+                        <span class="tag">225ML</span>
+                        <span class="tag">Melati segar</span>
+                        <span class="tag">Aroma bunga lembut</span>
+                        <span class="tag">Manis alami</span>
+                    </div>
+                    <div class="price">Rp55.000</div>
+                    <button class="more-detail-btn" onclick="openPopup(this)">More Detail</button>
+                </div>
+            </div>
+        
+            <div class="product-card active" data-category="ruangan">
+                <img src="/image/sereh'qu.jpg" alt="SEREH'QU" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">SEREH'QU REFILL METIC</h2>
+                    <div class="product-tags">
+                        <span class="tag">225ML</span>
+                        <span class="tag">Sereh segar</span>
+                        <span class="tag">Herbal alami</span>
+                        <span class="tag">Citrus ringan</span>
+                    </div>
+                    <div class="price">Rp55.000</div>
+                    <button class="more-detail-btn" onclick="openPopup(this)">More Detail</button>
+                    </div>
+                </div>
+        </main>
+      
+        <!-- parfum eliminator -->
+        <main class="products-container">
+        <div class="product-card active" data-category="eliminator">
+            <img src="/image/bublegum.jpg" alt="HEJO AFE BUBBLE GUM" class="product-image">
+            <div class="product-info">
+                <h2 class="product-title">HEJO AFE BUBBLE GUM</h2>
+                <div class="product-tags">
+                    <span class="tag">250ML</span>
+                    <span class="tag">Aroma manis khas permen karet</span>
+                    <span class="tag">Wangi ceria dan menyenangkan</span>
+                    <span class="tag">Tahan lama</span>
+                </div>
+                <div class="price">Rp35.000</div>
+                    <button class="more-detail-btn" onclick="openPopup(this)">More Detail</button>
+            </div>
+        </div>
+        
+        <div class="product-card active" data-category="eliminator">
+            <img src="/image/kopi.jpg" alt="HEJO AFE COFFEE" class="product-image">
+            <div class="product-info">
+                <h2 class="product-title">HEJO AFE COFFEE</h2>
+                <div class="product-tags">
+                    <span class="tag">250ML</span>
+                    <span class="tag">Aroma kopi yang hangat</span>
+                    <span class="tag">Wangi menenangkan</span>
+                    <span class="tag">Cocok untuk suasana santai</span>
+                </div>
+                <div class="price">Rp35.000</div>
+                <button class="more-detail-btn" onclick="openPopup(this)">More Detail</button>
+            </div>
+        </div>
+        
+        <div class="product-card active" data-category="eliminator">
+            <img src="/image/sea blossom.jpg" alt="HEJO AFE SEABLOOSOM" class="product-image">
+            <div class="product-info">
+                <h2 class="product-title">HEJO AFE SEABLOOSOM</h2>
+                <div class="product-tags">
+                    <span class="tag">250ML</span>
+                    <span class="tag">Aroma laut yang menyegarkan</span>
+                    <span class="tag">Wangi alami</span>
+                    <span class="tag">Ciptakan suasana sejuk</span>
+                </div>
+                <div class="price">Rp35.000</div>
+                <button class="more-detail-btn" onclick="openPopup(this)">More Detail</button>
+            </div>
+        </div>
+        
+        <div class="product-card active" data-category="eliminator">
+            <img src="/image/vanilla.jpg" alt=">HEJO AFE VANILLA" class="product-image">
+            <div class="product-info">
+                <h2 class="product-title">HEJO AFE VANILLA</h2>
+                <div class="product-tags">
+                    <span class="tag">250ML</span>
+                    <span class="tag">Aroma vanila yang lembut</span>
+                    <span class="tag">Wangi manis menenangkan</span>
+                    <span class="tag">Ciptakan kehangatan</span>
+                </div>
+                <div class="price">Rp35.000</div>
+                <button class="more-detail-btn" onclick="openPopup(this)">More Detail</button>
+            </div>
+        </div>
+        
+        <div class="product-card active" data-category="eliminator">
+            <img src="/image/melon.jpg" alt="HEJO AFE MELON" class="product-image">
+            <div class="product-info">
+                <h2 class="product-title">HEJO AFE MELON</h2>
+                <div class="product-tags">
+                    <span class="tag">250ML</span>
+                    <span class="tag">Aroma melon segar</span>
+                    <span class="tag">Wangi cerah dan manis</span>
+                    <span class="tag">Menyegarkan ruangan</span>
+                </div>
+                <div class="price">Rp35.000</div>
+                <button class="more-detail-btn" onclick="openPopup(this)">More Detail</button>
+            </div>
+        </div>
+        </main>
+       
+<!-- parfum exclusive -->
+        <main class="products-container">
+        <div class="product-card active" data-category="exclusive">
+            <img src="/image/alxendra.png" alt="ALEXANDRIA PREMIUM" class="product-image">
+            <div class="product-info">
+                <h2 class="product-title">ALEXANDRIA PREMIUM</h2>
+                <div class="product-tags">
+                    <span class="tag">50ML</span>
+                    <span class="tag">Aroma elegan premium</span>
+                    <span class="tag">Wangi yang mewah</span>
+                    <span class="tag">Tahan lama</span>
+                </div>
+                <div class="price">Rp175.000</div>
+                <button class="more-detail-btn" onclick="openPopup(this)">More Detail</button>
+            </div>
+        </div>
+        
+        <div class="product-card active" data-category="exclusive">
+            <img src="/image/maximum.png" alt="MAXIMUM ULTIMATE PREMIUM" class="product-image">
+            <div class="product-info">
+                <h2 class="product-title">MAXIMUM ULTIMATE PREMIUM</h2>
+                <div class="product-tags">
+                    <span class="tag">50ML</span>
+                    <span class="tag">Wangi maskulin dan kuat</span>
+                    <span class="tag">Aroma khas elegan</span>
+                </div>
+                <div class="price">Rp175.000</div>
+                <button class="more-detail-btn" onclick="openPopup(this)">More Detail</button>
+            </div>
+        </div>
+        
+        <div class="product-card active" data-category="exclusive">
+            <img src="/image/mia.png" alt="MIA PREMIUM" class="product-image">
+            <div class="product-info">
+                <h2 class="product-title">MIA PREMIUM</h2>
+                <div class="product-tags">
+                    <span class="tag">50ML</span>
+                    <span class="tag">Aroma feminin dan anggun</span>
+                    <span class="tag">Wangi yang romantis</span>
+                    <span class="tag">Tahan lama dan memikat</span>
+                </div>
+                <div class="price">Rp175.000</div>
+                <button class="more-detail-btn" onclick="openPopup(this)">More Detail</button>
+            </div>
+        </div> 
+    </main>
+
+    <div class="popup" id="productPopup">
+        <div class="popup-content">
+            <button class="close-btn" onclick="closePopup()">&times;</button>
+            <div class="popup-left">
+                <img src="" alt="" class="popup-image" id="popupImage">
+            </div>
+            <div class="popup-right">
+                <h2 class="popup-title" id="popupTitle"></h2>
+                <div class="popup-tags" id="popupTags"></div>
+                <p class="product-description" id="popupDescription"></p>
+                <div class="price" id="popupPrice"></div>
+            </div>
+        </div>
+    </div>
+    <div class="running-text">
+        <div class="text-wrapper">
+          <p>Produk Kurisa kini tersedia di berbagai marketplace! Dapatkan di Shopee melalui toko Kurisa_Store atau kunjungi toko offline terdekat!</p>
+          <p>Produk Kurisa kini tersedia di berbagai marketplace! Dapatkan di Shopee melalui toko Kurisa_Store atau kunjungi toko offline terdekat!</p>
+        </div>
+      </div>
+      
+<div class="whatsapp-logo">
+    <a href="https://wa.me/6282114297334" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
+  </div>
+  <footer class="footer">
+    <div class="footer-container">
+        <!-- Customer Service Column -->
+        <div class="footer-column">
+            <h3>CUSTOMER SERVICE</h3>
+            <ul>
+                <li><a href="contact index.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Navigation Column -->
+        <div class="footer-column">
+            <h3>NAVIGATION</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produk index.html">Collections</a></li>
+                <li><a href="promo index.html">Promo</a></li>
+                <li><a href="howtouse index.html">How To Use</a></li>
+            </ul>
+        </div>
+
+        <!-- Shop Online Column -->
+        <div class="footer-column">
+            <h3>Shop Online</h3>
+            <ul>
+                <li><a href="https://s.shopee.co.id/7V144KaegU">Shopee</a></li>
+                <li><a href="">Tokopedia</a></li>
+            </ul>
+        </div>
+
+        <div class="social-icons">
+          <a href="https://www.instagram.com/kurisaofficial_store?igsh=MTVlems0YWdnbXZvdA==" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@kurisa_store?_t=ZS-8tOISSnOrtS&_r=1" class="social-icon"><i class="fab fa-tiktok"></i></a>
+      </div>
+      
+    </div>
+
+    <div class="copyright">
+        © 2025 All Rights Reserved AS Parfume
+    </div>
+</footer>
+    <script src="/JavaScript/produk.js"></script>
+ </body>
+</html>
+
+
+
+  
+
+    
